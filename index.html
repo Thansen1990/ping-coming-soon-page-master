@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Ping coming soon page</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	</head>
+	<body>
+		<div class="container">
+			<img class="ping_logo" src="./images/logo.svg" alt="PING. logo" />
+
+				<h1><span class='header_opacity'>We are launching</span> <span class="header_soon_bold">soon!</span></h1>
+				<h2>Subscribe and get notified</h2>
+
+			<form name="email_form" id='email_form' class='email_form'>
+				<label for="email"></label>
+				<input
+					class="email_input"
+					type="email"
+					id="email"
+					name="email"
+					placeholder="Your email address..."
+				/>
+        <input type="button" class="submit_button" type="submit" value='Notify Me'>
+			</form>
+
+			<img
+				class="dashboard_img"
+				src="./images/illustration-dashboard.png"
+				alt="dashboard illustration"
+			/>
+
+			<section class="icon_section">
+				<div class="icon_circle"><i class="fa-brands fa-facebook-f icon"></i></div>
+				<div class="icon_circle"><i class="fa-brands fa-twitter icon"></i></div>
+				<div class="icon_circle"><i class="fa-brands fa-instagram icon"></i></div>
+			</section>
+
+			<footer class='copyright'>&copy; Copyright Ping. All rights reserved.</footer>
+		</div>
+
+		<footer>
+			<p class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Your Name Here</a>.
+			</p>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/2c63d853f5.js"
+			crossorigin="anonymous"
+		></script>
+
+    <script src='script.js'></script>
+
+	</body>
+</html>

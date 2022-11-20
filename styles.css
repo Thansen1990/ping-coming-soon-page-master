@@ -1,0 +1,188 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* - Pale Blue: hsl(223, 100%, 88%)
+- Light Red: hsl(354, 100%, 66%)
+
+### Neutral
+
+- Gray: hsl(0, 0%, 59%)
+- Very Dark Blue: hsl(209, 33%, 12%) */
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: #fff;
+}
+
+.container {
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ping_logo {
+    height: auto;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard_img {
+    height: auto;
+    width: 90%;
+}
+
+
+h1 {
+    font-family: 'libre franklin';
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.header_opacity {
+    opacity: 0.5;
+}
+
+.header_soon_bold {
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'libre franklin';
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.email_form {
+    margin: 1rem 0rem 4rem 0rem;
+    display: inline-block;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.email_input {
+    border: 1px solid hsl(0, 0%, 59%);
+    color: hsl(0, 0%, 59%);
+    opacity: 0.4;
+    border-width: 2px;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 69%;
+    height: 3rem;
+    margin: 1%;
+}
+
+.submit_button {
+    font-family: 'libre franklin';
+    font-weight: 600;
+    background-color: #4d7bf3;
+    color: #fff;
+    border: 0px;
+    border-radius: 2rem;
+    width: 29%;
+    margin: 1%;
+    height: 3rem;
+}
+.submit_button:hover{
+    background-color: blue;
+}
+
+.icon_section {
+    display: flex;
+    margin: 4rem auto 1.5rem auto;
+    justify-content: space-between;
+}
+
+.icon_circle {
+    position: relative;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.icon {
+    position: absolute;
+    color: #4d7bf3;
+}
+
+.copyright {
+    font-family: 'libre franklin';
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 700px) {
+
+
+
+    .container {
+        width: 90%;
+    }
+
+    .ping_logo {
+        height: auto;
+        width: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dashboard_img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    h1 {
+        font-family: 'libre franklin';
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-family: 'libre franklin';
+        font-weight: 300;
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .email_form {
+        margin: 1rem 0rem 4rem 0rem;
+        display: inline-block;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email_input {
+        font-family: 'libre franklin';
+        width: 100%;
+
+    }
+
+    .submit_button {
+        width: 100%;
+    }
+
+}
