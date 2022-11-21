@@ -82,6 +82,8 @@ h2 {
     box-sizing: border-box;
     width: 95%;
     height: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .input_section{
